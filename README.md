@@ -68,4 +68,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-"# multi-step-formik-10" 
+"# multi-step-formik-10"
+
+### Development Notes:
+
+http://bootcamp-p10-multi-step-formik.surge.sh/
+
+https://github.com/alikamal2381/multi-step-formik-10.git
+
+yt_ref: - https://www.youtube.com/watch?v=HuJDKp-9HHc&t=208s
