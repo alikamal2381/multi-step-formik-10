@@ -10,6 +10,12 @@ const defaultData = {
   firstName: "",
   lastName: "",
   nickName: "",
+  address: "",
+  city: "",
+  state: "",
+  zip: "",
+  email: "",
+  phone: "",
 };
 
 const steps = [

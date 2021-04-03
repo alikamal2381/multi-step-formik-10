@@ -1,9 +1,12 @@
 import React from "react";
+import Container from "@material-ui/core/Container";
+//import TextField from "@material-ui/core/TextField";
+//import Button from "@material-ui/core/Button";
 
 export const Submit = () => {
   return (
-    <div>
-      <h1>Submit</h1>
-    </div>
+    <Container maxWidth="sm" style={{ marginTop: "4rem" }}>
+      <h3>Thank you for submitting, we will be in touch.</h3>
+    </Container>
   );
 };

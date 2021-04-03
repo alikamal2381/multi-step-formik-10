@@ -5,11 +5,12 @@ import Button from "@material-ui/core/Button";
 
 export const Names = ({ formData, setForm, navigation }) => {
   const { firstName, lastName, nickName } = formData;
-  console.log(firstName);
+  //console.log(firstName);
 
   return (
     <Container maxWidth="xs">
-      <h3>First Name: </h3>
+      <h3>Names: </h3>
+
       <TextField
         label="First Name"
         name="firstName"
@@ -21,22 +22,22 @@ export const Names = ({ formData, setForm, navigation }) => {
         fullWidth
       />
 
-      <h3>Last Name: </h3>
       <TextField
         label="Last Name"
         name="lastName"
         value={lastName}
+        onChange={setForm}
         margin="normal"
         variant="outlined"
         autoComplete="off"
         fullWidth
       />
 
-      <h3>Nick Name: </h3>
       <TextField
         label="Nick Name"
         name="nickName"
         value={nickName}
+        onChange={setForm}
         margin="normal"
         variant="outlined"
         autoComplete="off"
